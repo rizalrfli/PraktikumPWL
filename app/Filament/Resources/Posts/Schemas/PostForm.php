@@ -48,7 +48,7 @@ class PostForm
                                 ->validationMessages([
                                     'required' => 'Kategori wajib dipilih.'
                                 ])
-                                ->preload()
+                                // ->preload()
                                 ->searchable(),
                             ColorPicker::make('color'),
                         ])->columns(2),
